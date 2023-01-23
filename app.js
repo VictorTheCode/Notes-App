@@ -6,8 +6,6 @@ submitBtn = document.getElementById('btn');
 let notesArr = [],
 noteCount = 0;
 
-document.addEventListener("DOMContentLoaded", getSavedNote);
-
 submitBtn.addEventListener("click", () => {
     noteCount++;
   
@@ -50,18 +48,8 @@ noteContainer.addEventListener("click", (e) => {
     
     notesArr.splice(lead, 1);
     
-    localStorage.setItem("notes", JSON.stringify(new_note));
+    localStorage.setItem("notes", JSON.stringify(notesArr));
     
     e.target.parentNode.remove();
   }
-})
-
-function getSavedNote() {
-  if(typeof(storage) !== "undefined") {
-    let noteString = localStorage.getItem('notes');
-    let savedNote = JSON.parse(noteString);
-    return savedNote;
-  } else {
-    // Sorry dnddjejdjj
-  }
-}  
+});

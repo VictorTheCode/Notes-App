@@ -40,11 +40,11 @@ p {
 
 input {
   width: 100%;
-  height: 30px;
+  height: 40px;
   border: 1px solid hsl(215, 13.8%, 34.1%);
   background-color: transparent;
   color: hsl(220, 13%, 91%);
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
   font-family: Monospace;
 }
@@ -67,7 +67,7 @@ textarea {
   background: transparent;
   color: white;
   cursor: text;
-  font-size: 18px;
+  font-size: 17px;
   resize: none;
   background-color: hsl(220, 8.9%, 46.1%);
 }
@@ -86,7 +86,7 @@ textarea::placeholder {
 
 #btn {
   border: none;
-  margin-top: 2.5rem;
+  margin-top: 3rem;
   width: 130px;
   padding: 10px 0;
   background-color: hsl(142, 70.6%, 45.3%);
