@@ -67,7 +67,7 @@ textarea {
   background: transparent;
   color: white;
   cursor: text;
-  font-size: 17px;
+  font-size: 1rem;
   resize: none;
   background-color: hsl(220, 8.9%, 46.1%);
 }
